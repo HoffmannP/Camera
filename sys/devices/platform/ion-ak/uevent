@@ -1,0 +1,2 @@
+DRIVER=ion-ak
+MODALIAS=platform:ion-ak

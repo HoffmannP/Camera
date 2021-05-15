@@ -1,0 +1,2 @@
+DRIVER=anyka-wifi
+MODALIAS=platform:anyka-wifi

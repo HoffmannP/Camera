@@ -1,0 +1,2 @@
+DRIVER=i2c-ak39
+MODALIAS=platform:i2c-ak39

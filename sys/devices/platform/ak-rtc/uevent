@@ -1,0 +1,2 @@
+DRIVER=ak-rtc
+MODALIAS=platform:ak-rtc

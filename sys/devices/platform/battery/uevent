@@ -1,0 +1,2 @@
+DRIVER=battery
+MODALIAS=platform:battery

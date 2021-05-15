@@ -1,0 +1,2 @@
+DRIVER=pm-anyka
+MODALIAS=platform:pm-anyka

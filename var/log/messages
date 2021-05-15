@@ -1,0 +1,562 @@
+May 15 13:15:56 anyka syslog.info syslogd started: BusyBox v1.20.2
+May 15 13:15:56 anyka user.notice kernel: klogd started: BusyBox v1.20.2 (2015-04-17 19:54:22 CST)
+May 15 13:15:56 anyka user.info kernel: Booting Linux on physical CPU 0
+May 15 13:15:56 anyka user.notice kernel: Linux version 3.4.35 (root@robin-VirtualBox) (gcc version 4.4.1 (Sourcery G++ Lite 2009q3-67) ) #41 Sun Jan 27 14:09:57 CST 2019
+May 15 13:15:56 anyka user.warn kernel: CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00053177
+May 15 13:15:56 anyka user.warn kernel: CPU: VIVT data cache, VIVT instruction cache
+May 15 13:15:56 anyka user.warn kernel: Machine: Cloud39E_AK3918E+H42_V1.0.2
+May 15 13:15:56 anyka user.warn kernel: Memory policy: ECC disabled, Data cache writeback
+May 15 13:15:56 anyka user.warn kernel: ANYKA CPU AK3916 (ID 0x20150200)
+May 15 13:15:56 anyka user.debug kernel: On node 0 totalpages: 10240
+May 15 13:15:56 anyka user.debug kernel: free_area_init_node: node 0, pgdat c03bc878, node_mem_map c03db000
+May 15 13:15:56 anyka user.debug kernel:   Normal zone: 80 pages used for memmap
+May 15 13:15:56 anyka user.debug kernel:   Normal zone: 0 pages reserved
+May 15 13:15:56 anyka user.debug kernel:   Normal zone: 10160 pages, LIFO batch:1
+May 15 13:15:56 anyka user.debug kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+May 15 13:15:56 anyka user.debug kernel: pcpu-alloc: [0] 0 
+May 15 13:15:56 anyka user.warn kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 10160
+May 15 13:15:56 anyka user.notice kernel: Kernel command line: root=/dev/mtdblock1 ro rootfstype=squashfs init=/sbin/init mem=64M console=ttySAK0,115200
+May 15 13:15:56 anyka user.info kernel: PID hash table entries: 256 (order: -2, 1024 bytes)
+May 15 13:15:56 anyka user.info kernel: Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+May 15 13:15:56 anyka user.info kernel: Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+May 15 13:15:56 anyka user.info kernel: Memory: 40MB = 40MB total
+May 15 13:15:56 anyka user.notice kernel: Memory: 36592k/36592k available, 4368k reserved, 0K highmem
+May 15 13:15:56 anyka user.notice kernel: Virtual kernel memory layout:
+May 15 13:15:56 anyka user.notice kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+May 15 13:15:56 anyka user.notice kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+May 15 13:15:56 anyka user.notice kernel:     vmalloc : 0xc3000000 - 0xff000000   ( 960 MB)
+May 15 13:15:56 anyka user.notice kernel:     lowmem  : 0xc0000000 - 0xc2800000   (  40 MB)
+May 15 13:15:56 anyka user.notice kernel:     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+May 15 13:15:56 anyka user.notice kernel:       .text : 0xc0008000 - 0xc0380000   (3552 kB)
+May 15 13:15:56 anyka user.notice kernel:       .init : 0xc0380000 - 0xc039a000   ( 104 kB)
+May 15 13:15:56 anyka user.notice kernel:       .data : 0xc039a000 - 0xc03bd520   ( 142 kB)
+May 15 13:15:56 anyka user.notice kernel:        .bss : 0xc03bd544 - 0xc03dad1c   ( 118 kB)
+May 15 13:15:56 anyka user.info kernel: SLUB: Genslabs=13, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+May 15 13:15:56 anyka user.info kernel: NR_IRQS:95
+May 15 13:15:56 anyka user.info kernel: sched_clock: 32 bits at 100 Hz, resolution 10000000ns, wraps every 4294967286ms
+May 15 13:15:56 anyka user.warn kernel: AK39 console driver initial
+May 15 13:15:56 anyka user.info kernel: console [ttySAK0] enabled
+May 15 13:15:56 anyka user.info kernel: Calibrating delay loop... 199.06 BogoMIPS (lpj=995328)
+May 15 13:15:56 anyka user.info kernel: pid_max: default: 32768 minimum: 301
+May 15 13:15:56 anyka user.info kernel: Mount-cache hash table entries: 512
+May 15 13:15:56 anyka user.info kernel: CPU: Testing write buffer coherency: ok
+May 15 13:15:56 anyka user.info kernel: Setting up static identity map for 0x81abc6c8 - 0x81abc720
+May 15 13:15:56 anyka user.info kernel: devtmpfs: initialized
+May 15 13:15:56 anyka user.info kernel: NET: Registered protocol family 16
+May 15 13:15:56 anyka user.warn kernel: On-chip L2 memory initialized
+May 15 13:15:56 anyka user.warn kernel: AK39 clocks: CPU 400MHz, MEM 200MHz, ASIC 100MHz
+May 15 13:15:56 anyka user.warn kernel: Anyka platform share gpio locks initialize.
+May 15 13:15:56 anyka user.info kernel: bio: create slab <bio-0> at 0
+May 15 13:15:56 anyka user.notice kernel: SCSI subsystem initialized
+May 15 13:15:56 anyka user.warn kernel: *********akfha_char init
+May 15 13:15:56 anyka user.info kernel: akfha Char Device Initialize Successed!
+May 15 13:15:56 anyka user.info kernel: usbcore: registered new interface driver usbfs
+May 15 13:15:56 anyka user.info kernel: usbcore: registered new interface driver hub
+May 15 13:15:56 anyka user.info kernel: usbcore: registered new device driver usb
+May 15 13:15:56 anyka user.info kernel: i2c-ak39 i2c-ak39: i2c-0: AK39 I2C adapter
+May 15 13:15:56 anyka user.info kernel: Linux video capture interface: v2.00
+May 15 13:15:56 anyka user.info kernel: cfg80211: Calling CRDA to update world regulatory domain
+May 15 13:15:56 anyka user.info kernel: NET: Registered protocol family 2
+May 15 13:15:56 anyka user.info kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+May 15 13:15:56 anyka user.info kernel: TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+May 15 13:15:56 anyka user.info kernel: TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+May 15 13:15:56 anyka user.info kernel: TCP: Hash tables configured (established 2048 bind 2048)
+May 15 13:15:56 anyka user.info kernel: TCP: reno registered
+May 15 13:15:56 anyka user.info kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+May 15 13:15:56 anyka user.info kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+May 15 13:15:56 anyka user.info kernel: NET: Registered protocol family 1
+May 15 13:15:56 anyka user.info kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+May 15 13:15:56 anyka user.info kernel: exFAT: Version 1.2.9
+May 15 13:15:56 anyka user.info kernel: jffs2: version 2.2. © 2001-2006 Red Hat, Inc.
+May 15 13:15:56 anyka user.info kernel: msgmni has been set to 71
+May 15 13:15:56 anyka user.info kernel: io scheduler noop registered
+May 15 13:15:56 anyka user.info kernel: io scheduler cfq registered (default)
+May 15 13:15:56 anyka user.warn kernel: AK39xx uart driver init, (c) 2013 ANYKA
+May 15 13:15:56 anyka user.info kernel: ak39-uart.0: ttySAK0 at MMIO 0x20130000 (irq = 10) is a AK39
+May 15 13:15:56 anyka user.err kernel: ion: failed to create debug files.
+May 15 13:15:56 anyka user.info kernel: brd: module loaded
+May 15 13:15:56 anyka user.info kernel: loop: module loaded
+May 15 13:15:56 anyka user.warn kernel: AK Motor Driver (c) 2013 ANYKA
+May 15 13:15:56 anyka user.warn kernel: akgpio driver initialize.
+May 15 13:15:56 anyka user.warn kernel: akpcm_init
+May 15 13:15:56 anyka user.warn kernel: ak39_codec_probe enter.
+May 15 13:15:56 anyka user.warn kernel: akpcm_probe
+May 15 13:15:56 anyka user.info kernel: akpcm initialize OK!
+May 15 13:15:56 anyka user.warn kernel: akpcm_probe ok.
+May 15 13:15:56 anyka user.err kernel: akisp_init
+May 15 13:15:56 anyka user.warn kernel: Start to init Anyka SPI Flash...
+May 15 13:15:56 anyka user.warn kernel: AK SPI Driver, (c) 2012 ANYKA
+May 15 13:15:56 anyka user.warn kernel: akpi regs: SPICON:00000152, SPISTA:00000015, SPIINT:00000000.
+May 15 13:15:56 anyka user.info kernel: ak-spi ak-spi: master is unqueued, this is deprecated
+May 15 13:15:56 anyka user.warn kernel: ak_spi setup the master.
+May 15 13:15:56 anyka user.warn kernel: pre-scaler=2 (wanted 20Mhz, got 16Mhz)
+May 15 13:15:56 anyka user.warn kernel: ak spiflash probe enter.
+May 15 13:15:56 anyka user.warn kernel: pre-scaler=2 (wanted 20Mhz, got 16Mhz)
+May 15 13:15:56 anyka user.warn kernel: ak_spi_setupxfer,con:00000252.
+May 15 13:15:56 anyka user.warn kernel: akspi flash ID: 0x00ef4017
+May 15 13:15:56 anyka user.warn kernel: w25q64, info->sector_size = 65536, info->n_sectors = 128
+May 15 13:15:56 anyka user.info kernel: ak-spiflash spi0.0: w25q64 (8192 Kbytes)
+May 15 13:15:56 anyka user.warn kernel: FHA:fhalib V1.0.25^M
+May 15 13:15:56 anyka user.warn kernel: FHA:FHA_S SPIFlash_Init: BinPageStartblock:35,^M
+May 15 13:15:56 anyka user.warn kernel: FHA:FHA_S SPIFlash_Init: BinPageStart:560,^M
+May 15 13:15:56 anyka user.warn kernel: FHA:FHA_S G_P_S:558 
+May 15 13:15:56 anyka user.warn kernel: nr_parts=0x3
+May 15 13:15:56 anyka user.warn kernel: mtd_part[0]:
+May 15 13:15:56 anyka user.warn kernel: name = A
+May 15 13:15:56 anyka user.warn kernel: size = 0x280000
+May 15 13:15:56 anyka user.warn kernel: offset = 0x250000
+May 15 13:15:56 anyka user.warn kernel: mask_flags = 0x0
+May 15 13:15:56 anyka user.warn kernel: mtd_part[1]:
+May 15 13:15:56 anyka user.warn kernel: name = B
+May 15 13:15:56 anyka user.warn kernel: size = 0x2f0000
+May 15 13:15:56 anyka user.warn kernel: offset = 0x4d0000
+May 15 13:15:56 anyka user.warn kernel: mask_flags = 0x0
+May 15 13:15:56 anyka user.warn kernel: mtd_part[2]:
+May 15 13:15:56 anyka user.warn kernel: name = C
+May 15 13:15:56 anyka user.warn kernel: size = 0x40000
+May 15 13:15:56 anyka user.warn kernel: offset = 0x7c0000
+May 15 13:15:56 anyka user.warn kernel: mask_flags = 0x0
+May 15 13:15:56 anyka user.notice kernel: Creating 3 MTD partitions on "spi0.0":
+May 15 13:15:56 anyka user.notice kernel: 0x000000250000-0x0000004d0000 : "A"
+May 15 13:15:56 anyka user.notice kernel: 0x0000004d0000-0x0000007c0000 : "B"
+May 15 13:15:56 anyka user.notice kernel: 0x0000007c0000-0x000000800000 : "C"
+May 15 13:15:56 anyka user.warn kernel: Init AK SPI Flash finish.
+May 15 13:15:56 anyka user.warn kernel: akspi master initialize success, use for DMA mode.
+May 15 13:15:56 anyka user.info kernel: AK39E_MAC Ethernet Driver, V1.0
+May 15 13:15:56 anyka user.info kernel: input: akgpio-keys as /devices/platform/akgpio-keys/input/input0
+May 15 13:15:56 anyka user.info kernel: ak-rtc ak-rtc: rtc core: registered ak-rtc as rtc0
+May 15 13:15:56 anyka user.warn kernel: battery:cap=83; vol=4087; status=discharge; full=0; poweroff_cap=0; low_cap=5.
+May 15 13:15:56 anyka user.warn kernel: AK Battery initialized
+May 15 13:15:56 anyka user.warn kernel: akplat_wifi_probe entered.
+May 15 13:15:56 anyka user.warn kernel: #### wifi power reset, 0(delay times)
+May 15 13:15:56 anyka user.warn kernel: wifi power on
+May 15 13:15:56 anyka user.warn kernel: AK MCI Driver (c) 2010 ANYKA
+May 15 13:15:56 anyka user.info kernel: akmci ak_mci: pdev->name:ak_mci request gpio irq ret = 0, irq=36
+May 15 13:15:56 anyka user.info kernel: akmci ak_mci: Mci Interface driver.mmc0. using l2dma, sw IRQ. detect mode:GPIO detect.
+May 15 13:15:56 anyka user.info kernel: akmci ak_sdio: Mci Interface driver.mmc1. using l2dma, hw IRQ. detect mode:plugin alway.
+May 15 13:15:56 anyka user.debug kernel: Registered led device: wps_led
+May 15 13:15:56 anyka user.debug kernel: Registered led device: led_red
+May 15 13:15:56 anyka user.info kernel: TCP: cubic registered
+May 15 13:15:56 anyka user.info kernel: NET: Registered protocol family 17
+May 15 13:15:56 anyka user.info kernel: lib80211: common routines for IEEE802.11 drivers
+May 15 13:15:56 anyka user.debug kernel: lib80211_crypt: registered algorithm 'NULL'
+May 15 13:15:56 anyka user.info kernel: ak-rtc ak-rtc: setting system clock to 2021-05-15 13:15:52 UTC (1621084552)
+May 15 13:15:56 anyka user.info kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:1.
+May 15 13:15:56 anyka user.info kernel: devtmpfs: mounted
+May 15 13:15:56 anyka user.info kernel: Freeing init memory: 104K
+May 15 13:15:56 anyka user.info kernel: mmc1: new SDIO card at address 0001
+May 15 13:15:57 anyka user.warn kernel: ar0130_module_init
+May 15 13:15:57 anyka user.warn kernel: gc1024_module_init
+May 15 13:15:57 anyka user.warn kernel: gc1034_module_init
+May 15 13:15:57 anyka user.warn kernel: tvp5150_module_init
+May 15 13:15:57 anyka user.warn kernel: h42_module_init
+May 15 13:15:57 anyka user.warn kernel: h61_module_init
+May 15 13:15:57 anyka user.warn kernel: h62_module_init
+May 15 13:15:57 anyka user.warn kernel: ov9712_module_init
+May 15 13:15:57 anyka user.warn kernel: ov9732_module_init
+May 15 13:15:57 anyka user.warn kernel: sc1035_module_init
+May 15 13:15:57 anyka user.warn kernel: sc1045_module_init
+May 15 13:15:57 anyka user.warn kernel: sc1135_module_init
+May 15 13:15:57 anyka user.warn kernel: sc1145_module_init
+May 15 13:15:57 anyka user.err kernel: aksensor_module_init
+May 15 13:15:57 anyka user.info kernel: soc-camera-pdrv soc-camera-pdrv: Probing soc-camera-pdrv
+May 15 13:15:57 anyka user.info kernel: ak_camera ak_camera.39: AK Camera driver attached to camera 0
+May 15 13:15:58 anyka user.warn kernel: ID ar0130_g_ctl val:0x0
+May 15 13:15:58 anyka daemon.info init: starting pid 418, tty '/dev/ttySAK0': '/sbin/getty -L ttySAK0 115200 vt100 '
+May 15 13:15:59 anyka user.err kernel: gc1024_set_poweron
+May 15 13:15:59 anyka user.warn kernel: ID gc1024_g_ctl val:0x0
+May 15 13:15:59 anyka user.err kernel: gc1034_set_poweron
+May 15 13:15:59 anyka user.warn kernel: ID gc1034_g_ctl val:0x0
+May 15 13:15:59 anyka user.err kernel: tvp5150_set_poweron
+May 15 13:15:59 anyka user.err kernel: reg0x80:0xff
+May 15 13:15:59 anyka user.warn kernel: ID tvp5150_g_ctl val:0x0
+May 15 13:15:59 anyka user.err kernel: h42_set_poweron
+May 15 13:15:59 anyka user.warn kernel: ID h42_g_ctl val:0x0
+May 15 13:15:59 anyka user.err kernel: h61_set_poweron
+May 15 13:15:59 anyka user.warn kernel: ID h61_g_ctl val:0x0
+May 15 13:15:59 anyka user.err kernel: h62_set_poweron
+May 15 13:15:59 anyka user.warn kernel: ID h62_g_ctl val:0xa062
+May 15 13:15:59 anyka user.info kernel: aksensor 0-0001: Probing h62 Sensor ID: 0xa062
+May 15 13:15:59 anyka user.info kernel: ak_camera ak_camera.39: AK Camera driver detached from camera 0
+May 15 13:15:59 anyka user.info kernel: ak_camera ak_camera.39: AK Camera driver loaded
+May 15 13:15:59 anyka user.debug daemon: ***************************************
+May 15 13:15:59 anyka user.debug daemon: *****A monitor daemon has running!*****
+May 15 13:15:59 anyka user.debug daemon: ***************************************
+May 15 13:15:59 anyka user.debug daemon: ********** Watch Dog Enabled! **********
+May 15 13:15:59 anyka user.debug daemon: watchdog timeout = 8(s)
+May 15 13:15:59 anyka user.debug daemon: [daemon_anyka_feed_watchdog:86] This thread id : 434
+May 15 13:15:59 anyka user.debug daemon: [daemon_pth_func:580] This thread id: 435
+May 15 13:15:59 anyka user.debug daemon: [daemon_broadcast_pth:1933] This thread id : 433
+May 15 13:15:59 anyka user.debug daemon: [daemon_broadcast_pth:1955] create udp socket success, socket fd:7.
+May 15 13:15:59 anyka user.debug daemon: [daemon_broadcast_pth:1981] ready to receive broadcast
+May 15 13:15:59 anyka user.debug daemon: [daemon_tcp_pth:1488] This thread id : 432
+May 15 13:15:59 anyka user.debug daemon: [daemon_tcp_pth:1513] Success to create TCP socket.
+May 15 13:15:59 anyka user.debug daemon: [daemon_tcp_pth:1546] Waiting for connect......
+May 15 13:15:59 anyka user.debug daemon: [daemon_monitor:280] This thread id : 431
+May 15 13:15:59 anyka user.debug daemon: MainAPP monitor started, interval:5Sec, fifo[/tmp/daemon_fifo].size=50
+May 15 13:16:00 anyka user.warn kernel: RTL871X: module init start
+May 15 13:16:00 anyka user.warn kernel: RTL871X: rtl8189es v4.3.0.4_11916.20140724_COB
+May 15 13:16:00 anyka user.warn kernel: RTL871X: build time: Dec 13 2014 15:58:57
+May 15 13:16:00 anyka user.warn kernel: RTL871X: CHIP TYPE: RTL8188E
+May 15 13:16:00 anyka user.warn kernel: RTL871X: register rtw_netdev_ops to netdev_ops
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+May 15 13:16:00 anyka user.warn kernel: RTL871X: RF_Type is 3!!
+May 15 13:16:00 anyka user.warn kernel: RTL871X: EEPROM type is E-FUSE
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =>_CardEnable
+May 15 13:16:00 anyka user.warn kernel: RTL871X: SetHwReg8188ES: bMacPwrCtrlOn=1
+May 15 13:16:00 anyka user.warn kernel: RTL871X: <=_CardEnable
+May 15 13:16:00 anyka user.warn kernel: RTL871X: _ReadPROMContent: 9346CR=0x20, Boot from EFUSE, Autoload OK
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =>_InitPowerOn_8188ES
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =>_CardEnable
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =>_CardEnable bMacPwrCtrlOn == _TRUE do nothing !!
+May 15 13:16:00 anyka user.warn kernel: RTL871X: <=_CardEnable
+May 15 13:16:00 anyka user.warn kernel: RTL871X: <=_InitPowerOn_8188ES
+May 15 13:16:00 anyka user.warn kernel: bFWReady == _FALSE call reset 8051...
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =====> _8051Reset88E(): 8051 reset success .
+May 15 13:16:00 anyka user.warn kernel: RTL871X: efuse_read_phymap_from_txpktbuf bcnhead:0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: efuse_read_phymap_from_txpktbuf len:162, lenbak:162, aaa:162, aaabak:162
+May 15 13:16:00 anyka user.warn kernel: RTL871X: efuse_read_phymap_from_txpktbuf read count:160
+May 15 13:16:00 anyka user.warn kernel: RTL871X: 0x2b ,RTL871X: 0x2b ,RTL871X: 0x2b ,RTL871X: 0x2a ,RTL871X: 0x29 ,RTL871X: 0x29 ,RTL871X: 0x2d ,RTL871X: 0x2d ,RTL871X: 0x2d ,RTL871X: 0x2c ,RTL871X: 0x2b ,RTL871X: 0x01 ,RTL871X: 
+May 15 13:16:00 anyka user.warn kernel: RTL871X: EEPROM ID=0x8129
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =>_InitPowerOn_8188ES
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =>_CardEnable
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =>_CardEnable bMacPwrCtrlOn == _TRUE do nothing !!
+May 15 13:16:00 anyka user.warn kernel: RTL871X: <=_CardEnable
+May 15 13:16:00 anyka user.warn kernel: RTL871X: <=_InitPowerOn_8188ES
+May 15 13:16:00 anyka user.warn kernel: bFWReady == _FALSE call reset 8051...
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =====> _8051Reset88E(): 8051 reset success .
+May 15 13:16:00 anyka user.warn kernel: RTL871X: efuse_read_phymap_from_txpktbuf bcnhead:0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: efuse_read_phymap_from_txpktbuf len:162, lenbak:162, aaa:162, aaabak:162
+May 15 13:16:00 anyka user.warn kernel: RTL871X: efuse_read_phymap_from_txpktbuf read count:160
+May 15 13:16:00 anyka user.warn kernel: RTL871X: phy efuse with valid MAC addr
+May 15 13:16:00 anyka user.warn kernel: RTL871X: using phy efuse mac
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =>_InitPowerOn_8188ES
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =>_CardEnable
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =>_CardEnable bMacPwrCtrlOn == _TRUE do nothing !!
+May 15 13:16:00 anyka user.warn kernel: RTL871X: <=_CardEnable
+May 15 13:16:00 anyka user.warn kernel: RTL871X: <=_InitPowerOn_8188ES
+May 15 13:16:00 anyka user.warn kernel: bFWReady == _FALSE call reset 8051...
+May 15 13:16:00 anyka user.warn kernel: RTL871X: =====> _8051Reset88E(): 8051 reset success .
+May 15 13:16:00 anyka user.debug daemon: add@/module/8189es
+May 15 13:16:00 anyka user.warn kernel: RTL871X: efuse_read_phymap_from_txpktbuf bcnhead:0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: efuse_read_phymap_from_txpktbuf len:162, lenbak:162, aaa:162, aaabak:162
+May 15 13:16:00 anyka user.warn kernel: RTL871X: efuse_read_phymap_from_txpktbuf read count:160
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Hal_GetPhyEfuseMACAddr_8188ES: Permanent Address = a0-9f-10-2a-c4-08
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Hal_ReadPowerSavingMode88E...bHWPwrPindetect(0)-bHWPowerdown(0) ,bSupportRemoteWakeup(0)
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ### PS params=>  power_mgnt(1),usbss_enable(0) ###
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 1 =======
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][1] = 0x2b
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][1] = 0x2d
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 2 =======
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][2] = 0x2b
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][2] = 0x2d
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 3 =======
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][3] = 0x2b
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][3] = 0x2d
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 4 =======
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][4] = 0x2b
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][4] = 0x2d
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 5 =======
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][5] = 0x2b
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][5] = 0x2d
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 6 =======
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][6] = 0x2b
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][6] = 0x2d
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 7 =======
+May 15 13:16:00 anyka user.debug daemon: add@/devices/platform/ak_sdio/mmc_host/mmc1/mmc1:0001/mmc1:0001:1/net/wlan0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][7] = 0x2b
+May 15 13:16:00 anyka user.debug daemon: 
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][7] = 0x2d
+May 15 13:16:00 anyka user.debug daemon: add@/devices/platform/ak_sdio/mmc_host/mmc1/mmc1:0001/mmc1:0001:1/net/wlan0/queues/tx-0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 8 =======
+May 15 13:16:00 anyka user.debug daemon: add@/devices/platform/ak_sdio/mmc_host/mmc1/mmc1:0001/mmc1:0001:1/net/wlan0/queues/tx-1
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][8] = 0x2b
+May 15 13:16:00 anyka user.debug daemon: add@/devices/platform/ak_sdio/mmc_host/mmc1/mmc1:0001/mmc1:0001:1/net/wlan0/queues/tx-2
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][8] = 0x2d
+May 15 13:16:00 anyka user.debug daemon: add@/devices/platform/ak_sdio/mmc_host/mmc1/mmc1:0001/mmc1:0001:1/net/wlan0/queues/tx-3
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 9 =======
+May 15 13:16:00 anyka user.debug daemon: add@/devices/platform/ak_sdio/mmc_host/mmc1/mmc1:0001/mmc1:0001:1/net/wlan1
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][9] = 0x2a
+May 15 13:16:00 anyka user.debug daemon: add@/devices/platform/ak_sdio/mmc_host/mmc1/mmc1:0001/mmc1:0001:1/net/wlan1/queues/tx-0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][9] = 0x2c
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 10 =======
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][10] = 0x2a
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][10] = 0x2c
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 11 =======
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][11] = 0x2a
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][11] = 0x2c
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 12 =======
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][12] = 0x29
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][12] = 0x2b
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 13 =======
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][13] = 0x29
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][13] = 0x2b
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= Path 0, Channel 14 =======
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_CCK_Base[0][14] = 0x29
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Index24G_BW40_Base[0][14] = 0x2b
+May 15 13:16:00 anyka user.debug daemon: add@/devices/platform/ak_sdio/mmc_host/mmc1/mmc1:0001/mmc1:0001:1/net/wlan1/queues/tx-1
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ======= TxCount 0 =======
+May 15 13:16:00 anyka user.warn kernel: RTL871X: CCK_24G_Diff[0][0]= 0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: OFDM_24G_Diff[0][0]= 1
+May 15 13:16:00 anyka user.warn kernel: RTL871X: BW20_24G_Diff[0][0]= 0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: BW40_24G_Diff[0][0]= 0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: EEPROMRegulatory = 0x0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: mlmepriv.ChannelPlan = 0x08
+May 15 13:16:00 anyka user.warn kernel: RTL871X: CrystalCap: 0x 3
+May 15 13:16:00 anyka user.warn kernel: RTL871X: EEPROM Customer ID: 0x 0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Board Type: 0x 0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: ThermalMeter = 0x1e
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Hal_DetectWoWMode
+May 15 13:16:00 anyka user.warn kernel: RTL871X: AutoloadFail =0,
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Adapter->eeprompriv.EEPROMRFGainVal=ff
+May 15 13:16:00 anyka user.warn kernel: RTL871X: EEPRORFGainOffset = 0x00
+May 15 13:16:00 anyka user.warn kernel: RTL871X: <==== ReadAdapterInfo8188ES in 100 ms
+May 15 13:16:00 anyka user.warn kernel: RTL871X: init_channel_set ChannelPlan ID 8 Chan num:14  
+May 15 13:16:00 anyka user.warn kernel: RTL871X: rtw_macaddr_cfg MAC Address  = a0:9f:10:2a:c4:08
+May 15 13:16:00 anyka user.warn kernel: RTL871X: bDriverStopped:1, bSurpriseRemoved:0, bup:0, hw_init_completed:0
+May 15 13:16:00 anyka user.warn kernel: RTL871X: register rtw_netdev_ops to netdev_ops
+May 15 13:16:00 anyka user.warn kernel: RTL871X: register rtw_netdev_if2_ops to netdev_ops
+May 15 13:16:00 anyka user.warn kernel: RTL871X: Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+May 15 13:16:00 anyka user.warn kernel: RTL871X: RF_Type is 3!!
+May 15 13:16:00 anyka user.warn kernel: RTL871X: init_channel_set ChannelPlan ID 8 Chan num:14  
+May 15 13:16:00 anyka user.warn kernel: RTL871X: rtw_ndev_init(wlan0)
+May 15 13:16:00 anyka user.warn kernel: RTL871X: _rtw_drv_register_netdev, MAC Address (if1) = a0:9f:10:2a:c4:08
+May 15 13:16:00 anyka user.warn kernel: RTL871X: rtw_ndev_init(wlan1)
+May 15 13:16:00 anyka user.warn kernel: RTL871X: _rtw_drv_register_netdev, MAC Address (if2) = a2:9f:10:2a:c4:08
+May 15 13:16:00 anyka user.warn kernel: RTL871X: module init ret=0
+May 15 13:16:04 anyka user.debug anyka_ipc: [monitor:24] This thread id : 454
+May 15 13:16:04 anyka user.debug anyka_ipc: the daemon fifo has created
+May 15 13:16:04 anyka user.debug anyka_ipc: [anyka_init_setting:1726] anyka config file check ok.
+May 15 13:16:05 anyka user.debug anyka_ipc: init all font buffer inused, font_num: 50
+May 15 13:16:05 anyka user.debug anyka_ipc: anyka_init_camera_info: 9, H.264 IPC
+May 15 13:16:05 anyka user.debug anyka_ipc: [sd_init_status:175] sdcard status: 0
+May 15 13:16:05 anyka user.warn kernel: dma alloc vir:0xffdfc000, phy:0x83b30000
+May 15 13:16:05 anyka user.debug anyka_ipc: ISP_Conf_Get_StyleId get styleId: 0
+May 15 13:16:05 anyka user.warn kernel: dma alloc vir:0xffdf0000, phy:0x832b0000
+May 15 13:16:05 anyka user.warn kernel: dma alloc vir:0xffdf8000, phy:0x8328c000
+May 15 13:16:05 anyka user.warn kernel: isp_module_init: ISPDrvLib V0.2.02
+May 15 13:16:05 anyka user.warn kernel: isp2 module init: isp_struct size=39140, dma_area=0xffdfc000, dma_bytes=11808, io_base=0xf0010000
+May 15 13:16:05 anyka user.info kernel: ak_camera ak_camera.39: AK Camera driver attached to camera 0
+May 15 13:16:05 anyka user.warn kernel: MCLK h62_g_ctl val:27
+May 15 13:16:05 anyka user.err kernel: h62_set_poweron
+May 15 13:16:05 anyka user.warn kernel: aksensor_g_ctrl id:9961482 failed
+May 15 13:16:05 anyka user.debug anyka_ipc: [Isp_Module_Cfg_Check] Check OK!
+May 15 13:16:05 anyka user.debug anyka_ipc: [Isp_Module_Cfg_Check] Check OK!
+May 15 13:16:05 anyka user.debug anyka_ipc: [isp.conf]version: 3.003, sensor id: 0xa062, style id: 0, modify time: 2017-4-27 20:44:22!
+May 15 13:16:05 anyka user.debug anyka_ipc: [ISP_Conf_Data_Check, /etc/jffs2/isp_h62_hekai.conf] OK subfile cnt = 2!
+May 15 13:16:05 anyka user.debug anyka_ipc: ISP_Conf_Check_Conf_File get sys conf files: /etc/jffs2/isp_h62_hekai.conf
+May 15 13:16:05 anyka user.debug anyka_ipc: ispsdk_lib version:V3.0.00 
+May 15 13:16:05 anyka user.debug anyka_ipc: [Isp_Module_Cfg_Check] Check OK!
+May 15 13:16:05 anyka user.debug anyka_ipc: set 3d ref addr:y=0x80000000
+May 15 13:16:05 anyka user.debug anyka_ipc: Isp_Module_Load_Def_Awb_Step get awb_attr ok, auto_awb_step:10
+May 15 13:16:05 anyka user.debug anyka_ipc: init isp success
+May 15 13:16:05 anyka user.debug anyka_ipc: camera height: 720, 720
+May 15 13:16:05 anyka user.debug anyka_ipc: ch1_height:720
+May 15 13:16:05 anyka user.warn kernel: isp_>blc_mode=0RESOLUTION h62_g_ctl val:5243600
+May 15 13:16:05 anyka user.debug anyka_ipc: [Isp_Module_Change_Fps_Pthread:329] This thread id : 457
+May 15 13:16:05 anyka user.debug anyka_ipc: [camera:]cur frames:25
+May 15 13:16:05 anyka user.warn kernel: FPS h62_g_ctl val:25
+May 15 13:16:05 anyka user.err kernel: soc-camera-pdrv soc-camera-pdrv: S_CROP denied: getting current crop failed
+May 15 13:16:05 anyka user.debug anyka_ipc: init_device==>S_FMT succeedded!
+May 15 13:16:05 anyka user.debug anyka_ipc: init_userp==>REQBUFS succeedded!userptr[count=4]
+May 15 13:16:05 anyka user.debug anyka_ipc: start_capturing==>STREAMON succeedded!
+May 15 13:16:05 anyka user.debug anyka_ipc: set occlusion color succeedded!
+May 15 13:16:05 anyka user.debug anyka_ipc: [Isp_Module_Check_Fps_Para] hight_light_frame_rate=25,hight_light_max_exp_time=900,hight_light_to_low_light_gain=8,low_light_frame_rate=10,low_light_max_exp_time=2250,low_light_to_hight_light_gain=3
+May 15 13:16:05 anyka user.warn kernel: aksensor_g_ctrl id:9961482 failed
+May 15 13:16:05 anyka user.warn kernel: aksensor_s_stream resume.
+May 15 13:16:05 anyka user.warn kernel: h62_set_fps :fps = 25
+May 15 13:16:05 anyka user.warn kernel: FPS h62_g_ctl val:25
+May 15 13:16:05 anyka user.debug anyka_ipc: [video_encode_open] H.264 params: w=1280, h=720, qpMin=20, qpMax=36, bps=524288, gop=24, fps=12
+May 15 13:16:05 anyka user.debug anyka_ipc: ^M --VIDAK39--Enc AK39 Encoder Lib V1.9.13--^M ^M
+May 15 13:16:05 anyka user.debug anyka_ipc: [video_encode_open] H.264 params: w=1280, h=720, qpMin=20, qpMax=36, bps=262144, gop=20, fps=10
+May 15 13:16:05 anyka user.debug anyka_ipc: ^M --VIDAK39--Enc AK39 Encoder Lib V1.9.13--^M ^M
+May 15 13:16:05 anyka user.debug anyka_ipc: [video_encode_open] H.264 params: w=640, h=360, qpMin=20, qpMax=36, bps=131072, gop=24, fps=12
+May 15 13:16:05 anyka user.debug anyka_ipc: ^M --VIDAK39--Enc AK39 Encoder Lib V1.9.13--^M ^M
+May 15 13:16:05 anyka user.debug anyka_ipc: ^M --VIDAK39--Enc AK39 Encoder Lib V1.9.13--^M ^M
+May 15 13:16:05 anyka user.debug anyka_ipc: ### 238 ###^M
+May 15 13:16:05 anyka user.debug anyka_ipc: ### 270 ###^M
+May 15 13:16:05 anyka user.debug anyka_ipc: [video_encode_read_data:365] This thread id : 458
+May 15 13:16:05 anyka user.debug anyka_ipc: [video_encode_read_data:369] the thread sleep
+May 15 13:16:05 anyka user.debug anyka_ipc: [video_encode_data:517] This thread id : 459
+May 15 13:16:05 anyka user.debug anyka_ipc: [audio_read_ad_pcm:176] This thread id : 460
+May 15 13:16:05 anyka user.debug anyka_ipc: [audio_read_ad_pcm:200] audio thread start processing
+May 15 13:16:05 anyka user.debug anyka_ipc: [audio_read_ad_pcm:213] audio thread sleep
+May 15 13:16:05 anyka user.debug anyka_ipc: [voice_tips_start_play:277] This thread id : 463
+May 15 13:16:05 anyka user.info kernel: open akgpio device success.
+May 15 13:16:05 anyka user.warn kernel: ID h62_g_ctl val:0xa062
+May 15 13:16:05 anyka user.debug anyka_ipc: [anyka_phone_manage:72] This thread id : 462
+May 15 13:16:05 anyka user.debug anyka_ipc: [anyka_fs_asyn_write_main:120] This thread id : 461
+May 15 13:16:06 anyka user.err anyka_ipc: [video_fs_list_init_list:166] /mnt/VIDEO/ is not exist
+May 15 13:16:06 anyka user.err anyka_ipc: [video_fs_list_init_list:166] /mnt/ALARM/ is not exist
+May 15 13:16:06 anyka user.warn kernel: RTL871X: +871x_drv - if2_open, bup=0
+May 15 13:16:06 anyka user.warn kernel: RTL871X: +871x_drv - drv_open, bup=0
+May 15 13:16:06 anyka user.warn kernel: RTL871X: +rtl8188es_hal_init
+May 15 13:16:06 anyka user.warn kernel: RTL871X: FW does not exit before power on!!
+May 15 13:16:06 anyka user.warn kernel: RTL871X: =>_InitPowerOn_8188ES
+May 15 13:16:06 anyka user.warn kernel: RTL871X: =>_CardEnable
+May 15 13:16:06 anyka user.warn kernel: RTL871X: =>_CardEnable bMacPwrCtrlOn == _TRUE do nothing !!
+May 15 13:16:06 anyka user.warn kernel: RTL871X: <=_CardEnable
+May 15 13:16:06 anyka user.warn kernel: RTL871X: <=_InitPowerOn_8188ES
+May 15 13:16:06 anyka user.warn kernel: RTL871X: PowerOnCheck: val_mix:0x0000063f, res:0x0000063f
+May 15 13:16:06 anyka user.warn kernel: RTL871X: PowerOnCheck: 0x100 the result of cmd52 and cmd53 is the same.
+May 15 13:16:06 anyka user.warn kernel: RTL871X: PowerOnCheck: 0x1B8 test Pass.
+May 15 13:16:06 anyka user.warn kernel: RTL871X: Power on ok!
+May 15 13:16:06 anyka user.warn kernel: RTL871X: _init_available_page_threshold(): Enable Tx FIFO Page Threshold H:0x5050,N:0x5050,L:0x5454
+May 15 13:16:06 anyka user.warn kernel: RTL871X: rtl8188e_FirmwareDownload fw:NIC, size: 15096
+May 15 13:16:06 anyka user.warn kernel: RTL871X: rtl8188e_FirmwareDownload: fw_ver=12 fw_subver=0000 sig=0x88e1, Month=13, Date=39, Hour=d8, Minute=3a
+May 15 13:16:07 anyka user.warn kernel: RTL871X: polling_fwdl_chksum: Checksum report OK! (1, 0ms), REG_MCUFWDL:0x00030005
+May 15 13:16:07 anyka user.warn kernel: RTL871X: =====> _8051Reset88E(): 8051 reset success .
+May 15 13:16:07 anyka user.warn kernel: RTL871X: _FWFreeToGo: Polling FW ready OK! (15, 0ms), REG_MCUFWDL:0x000300c6
+May 15 13:16:07 anyka user.warn kernel: RTL871X: FWDL success. write_fw:1, 410ms
+May 15 13:16:07 anyka user.warn kernel: ==> rtl8188e_iol_efuse_patch 
+May 15 13:16:07 anyka user.warn kernel: RTL871X: HalDetectPwrDownMode(): PDN=0
+May 15 13:16:07 anyka user.warn kernel: RTL871X: Set RF Chip ID to RF_6052 and RF type to 1T1R.
+May 15 13:16:07 anyka user.warn kernel: RTL871X: pDM_Odm TxPowerTrackControl = 1
+May 15 13:16:07 anyka user.warn kernel: RTL871X: DISABLE_BB_RF=0
+May 15 13:16:07 anyka user.warn kernel: RTL871X: IS_HARDWARE_TYPE_8188ES=1
+May 15 13:16:07 anyka user.warn kernel: RTL871X: -rtl8188es_hal_init
+May 15 13:16:07 anyka user.warn kernel: RTL871X: rtl8188es_hal_init in 980ms
+May 15 13:16:07 anyka user.warn kernel: RTL871X: hw_var_set_opmode()-2570 mode = 2
+May 15 13:16:07 anyka user.warn kernel: RTL871X: +rtw_bb_rf_gain_offset EEPROMRFGainOffset(0xc1): 0x00+
+May 15 13:16:07 anyka user.warn kernel: RTL871X: Using the default RF gain.
+May 15 13:16:07 anyka user.warn kernel: RTL871X: MAC Address = a0:9f:10:2a:c4:08
+May 15 13:16:07 anyka user.warn kernel: RTL871X: +871x_drv - if2_open, bup=0
+May 15 13:16:07 anyka user.warn kernel: RTL871X: -871x_drv - if2_open, bup=1
+May 15 13:16:07 anyka user.warn kernel: RTL871X: -871x_drv - drv_open, bup=1
+May 15 13:16:07 anyka user.warn kernel: RTL871X: -871x_drv - if2_open, bup=1
+May 15 13:16:07 anyka user.warn kernel: RTL871X: set_mode = IW_MODE_MASTER
+May 15 13:16:07 anyka user.warn kernel: RTL871X: rtw_hostapd_sta_flush
+May 15 13:16:07 anyka user.warn kernel: RTL871X: rtw_sta_flush(wlan1)
+May 15 13:16:07 anyka user.warn kernel: RTL871X: rtw_set_encryption
+May 15 13:16:07 anyka user.warn kernel: RTL871X: clear default encryption keys, keyid=0
+May 15 13:16:07 anyka user.warn kernel: RTL871X: rtw_set_encryption
+May 15 13:16:07 anyka user.warn kernel: RTL871X: clear default encryption keys, keyid=1
+May 15 13:16:07 anyka user.warn kernel: RTL871X: rtw_set_encryption
+May 15 13:16:07 anyka user.warn kernel: RTL871X: clear default encryption keys, keyid=2
+May 15 13:16:07 anyka user.warn kernel: RTL871X: rtw_set_encryption
+May 15 13:16:07 anyka user.warn kernel: RTL871X: clear default encryption keys, keyid=3
+May 15 13:16:07 anyka user.warn kernel: RTL871X: start rtl8188es_xmit_thread
+May 15 13:16:07 anyka user.warn kernel: RTL871X: start rtl8188es_xmit_thread
+May 15 13:16:07 anyka user.warn kernel: RTL871X: hw_var_set_opmode()-2456 mode = 3
+May 15 13:16:08 anyka user.warn kernel: RTL871X: rtw_port_switch_chk wlan1 is AP/GO
+May 15 13:16:08 anyka user.warn kernel: RTL871X: port switch - port0(wlan1), port1(wlan0)
+May 15 13:16:08 anyka user.warn kernel: RTL871X: rtw_set_beacon, len=152
+May 15 13:16:08 anyka user.warn kernel: RTL871X: rtw_check_beacon_data, len=138
+May 15 13:16:08 anyka user.warn kernel: RTL871X: [HT] Support STBC = 0x01
+May 15 13:16:08 anyka user.warn kernel: RTL871X: update_hw_ht_param
+May 15 13:16:08 anyka user.warn kernel: RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+May 15 13:16:08 anyka user.warn kernel: hw_var_set_bssid   reg=618 
+May 15 13:16:08 anyka user.warn kernel: RTL871X: concurrent_set_ap_chbw(wlan1) CH=6, BW=1, offset=1
+May 15 13:16:08 anyka user.warn kernel: RTL871X: HW_VAR_BASIC_RATE: 0x150 -> 0x15d -> 0x15d
+May 15 13:16:08 anyka user.warn kernel: RTL871X: ### Set STA_(1) info
+May 15 13:16:08 anyka user.warn kernel: RTL871X: update_bmc_sta=> mac_id:1 , raid:5 , bitmap=0x150
+May 15 13:16:08 anyka user.warn kernel: RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:5 , ra_bitmap=0x150, shortGIrate=0x00
+May 15 13:16:08 anyka user.warn kernel: RTL871X: ### MacID(1),Set Max Tx RPT MID(2)
+May 15 13:16:08 anyka user.warn kernel: RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+May 15 13:16:08 anyka user.warn kernel: RTL871X: assoc success
+May 15 13:16:08 anyka user.warn kernel: RTL871X: rtw_set_wps_assoc_resp, len=14
+May 15 13:16:08 anyka user.warn kernel: RTL871X: rtw_set_wps_beacon, len=30
+May 15 13:16:08 anyka user.warn kernel: RTL871X: rtw_set_wps_probe_resp, len=136
+May 15 13:16:08 anyka user.warn kernel: RTL871X: rtw_set_beacon, len=152
+May 15 13:16:08 anyka user.warn kernel: RTL871X: rtw_check_beacon_data, len=138
+May 15 13:16:08 anyka user.warn kernel: RTL871X: [HT] Support STBC = 0x01
+May 15 13:16:08 anyka user.warn kernel: RTL871X: update_hw_ht_param
+May 15 13:16:08 anyka user.warn kernel: RTL871X: update_hw_ht_param(): WLAN_HT_CAP_SM_PS_STATIC
+May 15 13:16:08 anyka user.warn kernel: hw_var_set_bssid   reg=618 
+May 15 13:16:08 anyka user.warn kernel: RTL871X: concurrent_set_ap_chbw(wlan1) CH=6, BW=1, offset=1
+May 15 13:16:08 anyka user.warn kernel: RTL871X: HW_VAR_BASIC_RATE: 0x150 -> 0x15d -> 0x15d
+May 15 13:16:08 anyka user.warn kernel: RTL871X: ### Set STA_(1) info
+May 15 13:16:08 anyka user.warn kernel: RTL871X: update_bmc_sta=> mac_id:1 , raid:5 , bitmap=0x150
+May 15 13:16:08 anyka user.warn kernel: RTL871X: rtl8188e_Add_RateATid=> mac_id:1 , raid:5 , ra_bitmap=0x150, shortGIrate=0x00
+May 15 13:16:08 anyka user.warn kernel: RTL871X: ### MacID(1),Set Max Tx RPT MID(2)
+May 15 13:16:08 anyka user.warn kernel: RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=1 
+May 15 13:16:08 anyka user.debug anyka_ipc: Isp_Module_Reload_Config_Awb_Step get awb_attr ok, cur auto_awb_step:10, set to step:10
+May 15 13:16:10 anyka user.warn kernel: RTL871X: +871x_drv - drv_open, bup=1
+May 15 13:16:10 anyka user.warn kernel: RTL871X: -871x_drv - drv_open, bup=1
+May 15 13:16:15 anyka user.warn kernel: RTL871X: SetHwReg8188E:(HW_VAR_CHECK_TXBUF)TXBUF Empty(1) in 10 ms
+May 15 13:16:18 anyka user.warn kernel: RTL871X: survey done event(2) band:0 for wlan0
+May 15 13:16:18 anyka user.warn kernel: RTL871X: survey done, current CH=6, BW=1, offset=1
+May 15 13:16:18 anyka user.warn kernel: RTL871X: restart pbuddy_adapter's beacon
+May 15 13:16:18 anyka user.warn kernel: RTL871X: rtw_indicate_scan_done(wlan0)
+May 15 13:16:20 anyka user.debug anyka_ipc: [video_encode_read_data:371] the thread wake
+May 15 13:16:20 anyka user.debug anyka_ipc: [video_encode_read_data:384] camera no data
+May 15 13:16:20 anyka user.debug anyka_ipc: [audio_add:495] system add an audio thread:(type:1)!
+May 15 13:16:20 anyka user.debug anyka_ipc: --AudioCodec Version V1.14.00_svn5047_withASM_O1--^M
+May 15 13:16:20 anyka user.debug anyka_ipc: ## CHIP OK
+May 15 13:16:20 anyka user.debug anyka_ipc: [audio_send_encode_data:455] This thread id : 507
+May 15 13:16:20 anyka user.debug anyka_ipc: [video_encode_read_data:384] camera no data
+May 15 13:16:20 anyka user.debug anyka_ipc: [video_encode_read_data:384] camera no data
+May 15 13:16:20 anyka user.debug anyka_ipc: [video_encode_read_data:384] camera no data
+May 15 13:16:20 anyka user.debug anyka_ipc: ## G711 encode open, type=17^M
+May 15 13:16:20 anyka user.debug anyka_ipc: [audio_read_ad_pcm:217] audio thread wake
+May 15 13:16:20 anyka user.warn kernel:  capture_ioctl reset buf
+May 15 13:16:20 anyka user.warn kernel:  === capture_pause ===
+May 15 13:16:20 anyka user.warn kernel: akpcm set capture device(s) = 1
+May 15 13:16:20 anyka user.warn kernel:  [chg_channel_source,0, 2]!
+May 15 13:16:20 anyka user.info kernel: set_channel_source addr : 2, src : 2
+May 15 13:16:20 anyka user.info kernel: set_channel_source: src:2, s_dac:0, s_linein:0, s_mic:1.
+May 15 13:16:20 anyka user.warn kernel: 	****set MIC gain 0
+May 15 13:16:20 anyka user.warn kernel: adc: perfect asic pll clk is:399360000, actual sample rate is 8012.
+May 15 13:16:20 anyka user.warn kernel: ---ADC asic_pll = 400000000, SR_save = 8012. des_sr = 8000, div = 194
+May 15 13:16:20 anyka user.warn kernel:  capture buffer alloc: c0ce8000, 8000
+May 15 13:16:20 anyka user.warn kernel:  capture boundary: -2147483648
+May 15 13:16:20 anyka user.warn kernel:  capture rate: 1f40
+May 15 13:16:20 anyka user.warn kernel: adc: perfect asic pll clk is:399360000, actual sample rate is 8012.
+May 15 13:16:20 anyka user.warn kernel: ---ADC asic_pll = 400000000, SR_save = 8012. des_sr = 8000, div = 194
+May 15 13:16:20 anyka user.warn kernel:  === capture_pause ===
+May 15 13:16:20 anyka user.warn kernel: AEC_Start: aec 0, nr 1, agc 1
+May 15 13:16:20 anyka user.warn kernel: --Echo Version V1.1.09_svn215--^M
+May 15 13:16:20 anyka user.warn kernel: ## AEC open^M
+May 15 13:16:20 anyka user.warn kernel: AEC_Thread+
+May 15 13:16:20 anyka user.warn kernel: AEC_Prio_Supervisor_Thread+
+May 15 13:16:20 anyka user.warn kernel: AEC starts capture, timer: 1 jiffies @ 100 Hz
+May 15 13:16:20 anyka user.warn kernel: ~~capture prd_bytes:2048
+May 15 13:16:21 anyka user.warn kernel: irq_handle_continous_mode 549: vb->i=2, but id -1
+May 15 13:16:21 anyka user.debug anyka_ipc: [anyka_dection_start:1493] type:2 level:3!
+May 15 13:16:21 anyka user.debug anyka_ipc: [video_fs_create_dir:88] mkdir /mnt/tmp error, Read-only file system
+May 15 13:16:21 anyka user.debug anyka_ipc: [video_fs_create_dir:88] mkdir /mnt/ALARM error, Read-only file system
+May 15 13:16:21 anyka user.debug anyka_ipc: ^M --motion detector Motion Detect Lib V2.0.00--^M ^M
+May 15 13:16:21 anyka user.debug anyka_ipc: [video_init_move_handle:1268] Open MotionDect: ratio=50, m_uThreshold=35
+May 15 13:16:21 anyka user.debug anyka_ipc: [video_move_check_main:1318] This thread id : 510
+May 15 13:16:25 anyka user.warn kernel: RTL871X: +OnAuth
+May 15 13:16:25 anyka user.warn kernel: RTL871X: auth alg=0, seq=1
+May 15 13:16:25 anyka user.warn kernel: RTL871X: going to alloc stainfo for sa=00:0e:2e:f8:96:14
+May 15 13:16:25 anyka user.warn kernel: RTL871X: rtw_alloc_macid = 0
+May 15 13:16:25 anyka user.warn kernel: RTL871X: issue_auth
+May 15 13:16:25 anyka user.warn kernel: RTL871X: OnAssocReq
+May 15 13:16:25 anyka user.warn kernel: RTL871X: IEEE 802.11 element parse ignored unknown element (id=127 elen=8)
+May 15 13:16:25 anyka user.warn kernel: RTL871X: IEEE 802.11 element parse ignored unknown element (id=59 elen=3)
+May 15 13:16:25 anyka user.warn kernel: RTL871X: STA did not include WPA/RSN IE in (Re)Association Request - possible WPS use
+May 15 13:16:25 anyka user.warn kernel: RTL871X: allocate new AID = (1)
+May 15 13:16:25 anyka user.warn kernel: RTL871X: bss_cap_update_on_sta_join STA 00:0e:2e:f8:96:14 - no HT, num of non-HT stations 1
+May 15 13:16:25 anyka user.warn kernel: RTL871X: bss_cap_update_on_sta_join, updated=0
+May 15 13:16:25 anyka user.warn kernel: RTL871X: update_sta_info_apmode
+May 15 13:16:25 anyka user.warn kernel: RTL871X: ### Set STA_(0) info
+May 15 13:16:25 anyka user.warn kernel: RTL871X: issue_asocrsp
+May 15 13:16:25 anyka user.warn kernel: RTL871X: report_add_sta_event: add STA
+May 15 13:16:25 anyka user.warn kernel: RTL871X: ### MacID(1),Set Max Tx RPT MID(2)
+May 15 13:16:25 anyka user.warn kernel: RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=0 
+May 15 13:16:25 anyka daemon.info hostapd: wlan1: STA 00:0e:2e:f8:96:14 IEEE 802.11: associated
+May 15 13:16:25 anyka daemon.info hostapd: wlan1: STA 00:0e:2e:f8:96:14 RADIUS: starting accounting session 609FC998-00000000
+May 15 13:16:25 anyka user.warn kernel: RTL871X: add_RATid=> mac_id:0 , raid:5 , shortGIrate=0, bitmap=0xff0
+May 15 13:16:25 anyka user.warn kernel: RTL871X: rtl8188e_Add_RateATid=> mac_id:0 , raid:5 , ra_bitmap=0xff0, shortGIrate=0x00
+May 15 13:16:25 anyka user.warn kernel: RTL871X: indicate_sta_assoc_event to upper layer - hostapd
+May 15 13:16:25 anyka user.warn kernel: RTL871X: +rtw_indicate_sta_assoc_event
+May 15 13:16:25 anyka user.warn kernel: RTL871X: rtw_stassoc_event_callback asoc_sta_count: 3
+May 15 13:16:25 anyka user.warn kernel: RTL871X: rtw_get_sta_wpaie, sta_addr: 00:0e:2e:f8:96:14
+May 15 13:16:25 anyka user.warn kernel: RTL871X: sta's wpa_ie is NONE
+May 15 13:16:26 anyka user.warn kernel: RTL871X: add_RATid=> mac_id:0 , raid:5 , shortGIrate=0, bitmap=0xff0
+May 15 13:16:26 anyka user.warn kernel: RTL871X: rtl8188e_Add_RateATid=> mac_id:0 , raid:5 , ra_bitmap=0xf00, shortGIrate=0x00
+May 15 13:16:36 anyka user.warn kernel: RTL871X: add_RATid=> mac_id:0 , raid:5 , shortGIrate=0, bitmap=0xff0
+May 15 13:16:36 anyka user.warn kernel: RTL871X: rtl8188e_Add_RateATid=> mac_id:0 , raid:5 , ra_bitmap=0xff0, shortGIrate=0x00
+May 15 13:16:46 anyka user.warn kernel: RTL871X: add_RATid=> mac_id:0 , raid:5 , shortGIrate=0, bitmap=0xff0
+May 15 13:16:46 anyka user.warn kernel: RTL871X: rtl8188e_Add_RateATid=> mac_id:0 , raid:5 , ra_bitmap=0xf00, shortGIrate=0x00
+May 15 13:17:12 anyka user.warn kernel: RTL871X: issue_nulldata(wlan1) to 00:0e:2e:f8:96:14, ch:6, 1/1 in 0 ms
+May 15 13:17:12 anyka user.warn kernel: RTL871X: ack check for asoc expire, keep_alive_trycnt=1
+May 15 13:17:12 anyka user.warn kernel: RTL871X: wakeup_sta_to_xmit alive check
+May 15 13:17:20 anyka user.warn kernel: RTL871X: asoc check, sta(00:0e:2e:f8:96:14) is alive
+May 15 13:17:20 anyka user.warn kernel: RTL871X: wakeup_sta_to_xmit alive check
+May 15 13:19:36 anyka user.warn kernel: RTL871X: send_beacon success, issue:1, poll:1, 130 ms
+May 15 13:19:37 anyka user.warn kernel: RTL871X: send_beacon success, issue:1, poll:1, 140 ms
+May 15 13:19:47 anyka user.warn kernel: RTL871X: send_beacon success, issue:12, poll:111, 90 ms
+May 15 13:19:48 anyka user.warn kernel: RTL871X: send_beacon success, issue:1, poll:1, 120 ms

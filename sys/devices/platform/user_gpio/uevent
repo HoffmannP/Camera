@@ -1,0 +1,2 @@
+DRIVER=user_gpio
+MODALIAS=platform:user_gpio

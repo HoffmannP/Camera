@@ -1,0 +1,2 @@
+DRIVER=soc-camera-pdrv
+MODALIAS=platform:soc-camera-pdrv

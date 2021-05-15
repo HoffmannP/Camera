@@ -1,0 +1,2 @@
+DRIVER=uio_vcodec
+MODALIAS=platform:uio_vcodec

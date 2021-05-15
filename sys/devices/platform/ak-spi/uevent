@@ -1,0 +1,2 @@
+DRIVER=ak-spi
+MODALIAS=platform:ak-spi

@@ -1,0 +1,16 @@
+wlan0     Scan completed :
+          Cell 01 - Address: 34:A8:4E:80:74:00
+                    ESSID:"eduroam"
+                    Protocol:IEEE 802.11gn
+                    Mode:Master
+                    Frequency:2.412 GHz (Channel 1)
+                    Encryption key:on
+                    Bit Rates:144 Mb/s
+                    Extra:rsn_ie=30180100000fac040100000fac040200000fac01000fac032800
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (2) : 802.1x unknown (3)
+                    Quality=66/100  Signal level=88/100  
+                    Extra:fm=0003
+

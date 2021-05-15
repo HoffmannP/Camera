@@ -1,0 +1,2 @@
+DRIVER=ak39-uart
+MODALIAS=platform:ak39-uart

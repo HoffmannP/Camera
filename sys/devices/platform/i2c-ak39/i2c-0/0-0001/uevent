@@ -1,0 +1,2 @@
+DRIVER=aksensor
+MODALIAS=i2c:aksensor

@@ -1,0 +1,2 @@
+DRIVER=ak_led
+MODALIAS=platform:ak_led

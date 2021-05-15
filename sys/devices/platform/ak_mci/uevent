@@ -1,0 +1,2 @@
+DRIVER=akmci
+MODALIAS=platform:ak_mci

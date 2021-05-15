@@ -1,0 +1,2 @@
+DRIVER=ak-fhachar
+MODALIAS=platform:ak-fhachar
